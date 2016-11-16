@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/display_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="El Texto"/>
+
+    <TextView
+        android:id="@+id/display_colorview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="El Color Texto"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/color_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/display_textview" />
+</LinearLayout>
